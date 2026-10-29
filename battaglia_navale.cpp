@@ -25,9 +25,6 @@ int main() {
 
     barca3h(5,5);
     
-    printf("\n");
-    printf("\n");
-    
     for(int i = 0; i < 16; i++)
     {
         for(int j = 0; j < 16; j++){
