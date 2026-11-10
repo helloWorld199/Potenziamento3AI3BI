@@ -1,4 +1,4 @@
-// There's a bug, can u find it?
+// There's a bug, can u find and fix it?
 #include <iostream>
 
 int main() {
