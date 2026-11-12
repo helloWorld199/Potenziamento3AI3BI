@@ -36,8 +36,7 @@ void stampaCampo(){
         printf("%c  ", 'A' + i);
     }
     printf("\n\n");
-    for(int i = 0; i < 16; i++)
-    {
+    for(int i = 0; i < 16; i++){
         for(int j = 0; j < 16; j++){
             if(m[i][j] == 'x')
                 printf("%cca  ", m[i][j]);
@@ -58,10 +57,11 @@ int main() {
         switch(scelta){
             
             case 1: {
-                int x, y;
-                printf("inserisci una x e una y");
+                int x;
+                char y;
+                printf("inserisci un numero x e una lettera y");
                 scanf("%d", &x);
-                scanf("%d", &y);
+                scanf("%c", &y);
                 bombarda(x, y);
                 break;
             }
